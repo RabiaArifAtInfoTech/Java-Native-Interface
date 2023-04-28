@@ -24,7 +24,7 @@ javac HelloWorld.java
 
 Step 3: Create the .h File:::: (cmd)
 ```
-javac -h C:\Users\rabia.arif\Desktop\JNI MainFile.java
+javac -h "C:\Users\rabia.arif\Desktop\JNI" HelloWorld.java
 ```
 
 
