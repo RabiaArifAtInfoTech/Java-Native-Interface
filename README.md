@@ -53,6 +53,15 @@ x86_64-w64-mingw32-gcc -c -I"C:\Program Files\Java\jdk-16\include" -I"C:\Program
 x86_64-w64-mingw32-gcc -shared -o hello.dll HelloWorld.o
 ```
 
+For C++:
+
+```
+x86_64-w64-mingw32-g++ -c -I"C:\Program Files\Java\jdk-16\include" -I"C:\Program Files\Java\jdk-16\include\win32" -o Prompt.o Prompt.cpp
+
+x86_64-w64-mingw32-g++ -shared -o MyImpOfPrompt.dll Prompt.o
+```
+
+
 
 Step 6: Run the Program:::: (cmd)
 ```
